@@ -82,7 +82,7 @@ function setup() {
   background(0);
 
   // Initialize and start the timer, passing in the callback function
-  t = new Timer(callback, time);
+  t = new Timer(myCallback, time);
   t.start();
 }
 
